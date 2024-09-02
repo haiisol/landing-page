@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "sass": "^1.71.1"
+  },
+  "scripts": {
+    "compile-screen": "sass assets/css/style.min.css assets/css/style.min.css --style compressed",
+    "watch-screen": "sass --watch assets/scss/style.scss assets/css/compiled/style.min.css --style compressed",
+    "compile-js": "uglifyjs assets/js/main.js -o assets/js/main.min.js -c toplevel,sequences=false -m",
+    "purge-css": "purgecss --css assets/css/style.css --content index.html --output assets/css/style.min.css && npm run compile-screen && npm run purge-bootstrap && npm run purge-responsive && npm run purge-spacing",
+    "purge-bootstrap": "purgecss --css assets/css/bootstrap/bootstrap.min.css --content index.html --output assets/css/bootstrap.min.css",
+    "purge-responsive": "purgecss --css assets/css/responsive.css --content index.html --output assets/css/responsive.min.css && sass assets/css/responsive.min.css assets/css/responsive.min.css --style compressed",
+    "purge-spacing": "purgecss --css assets/css/spacing.css --content index.html --output assets/css/spacing.min.css"
+  },
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  }
+}
