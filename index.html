@@ -20,37 +20,40 @@
   <meta property="og:url" content="https://www.sanspower.com/" />
   <meta property="og:site_name" content="Sanspower" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/critical.min.css?v=1.7">
+  <link rel="stylesheet" href="assets/css/critical.min.css?v=1.8">
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="assets/img/favicon.png" type="img/png" />
-  <link rel="preload" href="assets/css/bootstrap.min.css?v=1.7" as="style"
+  <link rel="preload" href="assets/css/bootstrap.min.css?v=1.8" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=1.7">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=1.8">
   </noscript>
-  <link rel="preload" href="assets/css/spacing.min.css?v=1.7" as="style"
+  <link rel="preload" href="assets/css/spacing.min.css?v=1.8" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="assets/css/spacing.min.css?v=1.7">
+    <link rel="stylesheet" href="assets/css/spacing.min.css?v=1.8">
   </noscript>
   <link rel="preload" href="assets/css/slick.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="assets/css/slick.min.css">
   </noscript>
-  <link rel="preload" href="assets/css/flaticon.css?v=1.7" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/css/flaticon.css?v=1.8" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="assets/css/flaticon.css?v=1.7">
+    <link rel="stylesheet" href="assets/css/flaticon.css?v=1.8">
   </noscript>
-  <link rel="preload" href="assets/css/style.min.css?v=1.7" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/css/style.min.css?v=1.8" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="assets/css/style.min.css?v=1.7">
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.8">
   </noscript>
-  <link rel="preload" href="assets/css/responsive.min.css?v=1.7" as="style"
+  <link rel="preload" href="assets/css/responsive.min.css?v=1.8" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="assets/css/responsive.min.css?v=1.7">
+    <link rel="stylesheet" href="assets/css/responsive.min.css?v=1.8">
   </noscript>
   <!-- <link rel="preload" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.min.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
@@ -85,7 +88,7 @@
   <!--====== End Header ======-->
 
   <!--====== Start Hero Area ======-->
-  <section class="hero-area-v1 bg-soft-grey-color-2">
+  <section class="hero-area-v1 bg-dark">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-12">
@@ -93,7 +96,7 @@
             <span class="title-tag">
               <span>Hemat 80%</span> Biaya Listrik
             </span>
-            <h1 class="hero-title">
+            <h1 class="hero-title text-white">
               Pompa Air Tenaga Surya, Solusi Investasi yang Mampu Turunkan Biaya Produksi
             </h1>
             <ul class="hero-btns d-flex justify-content-center">
@@ -134,7 +137,7 @@
       <div class="common-heading tagline-boxed text-center m-b-60">
         <span class="tagline">Fakta</span>
         <h2 class="title">Faktanya, Petani Indonesia masih belum sejahtera, bahkan banyak dari petani yang masih hidup
-          di garis kemiskinan*, Ternyata penyebabnya adalah....</h2>
+          di garis kemiskinan<sup>*</sup>, Ternyata penyebabnya adalah....</h2>
       </div>
 
       <!-- Image boxes -->
@@ -180,13 +183,13 @@
       </div>
 
       <!-- Image boxes -->
-      <div class="row image-boxes-v1 image-thumbnail-boxed">
+      <div class="row image-boxes-v1 image-thumbnail-boxed" style="row-gap: 2rem;">
         <div class="col">
           <div class="image-box d-flex flex-column justify-content-center h-100 bg-grey">
             <div class="thumb bg-green-transparent">
               <img src="assets/img/feature/low-electricity.png" loading="lazy" alt="Image">
             </div>
-            <h4 class="title">20% Rumah Tangga di daerah tepencil tidak terhubung dengan jaringan listrik</h4>
+            <h4 class="title">20% Rumah Tangga di daerah terpencil tidak terhubung dengan jaringan listrik</h4>
           </div>
           <small>*Kementerian ESDM, 2023</small>
         </div>
@@ -216,11 +219,12 @@
   <!--====== Start Data Analysis Area ======-->
   <section class="core-feature p-t-80 p-t-sm-50">
     <div class="container">
-      <div class="common-heading tagline-boxed text-center m-b-60">
-        <h2 class="title">Oleh karena itu, Generator Diesel bukan solusi Kongkrit</h2>
+      <div class="common-heading tagline-boxed text-center m-b-30">
+        <h2 class="title">Oleh karena itu, Generator Diesel bukan solusi Konkrit</h2>
       </div>
-      <div class="animate-float-bob-y text-center">
-        <img src="assets/img/genset.svg" loading="lazy" alt="Genset" style="max-width: 800px;" />
+      <div class="text-center position-relative">
+        <img src="assets/img/genset.jpg" class="w-100" loading="lazy" alt="Genset" style="max-width: 800px;" />
+        <i class="far fa-times text-danger translate-middle" style="font-size: 10rem;"></i>
       </div>
     </div>
   </section>
@@ -231,11 +235,10 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
-          <div class="common-heading title-line text-center m-b-60">
+          <div class="common-heading title-line tagline-boxed text-center m-b-60">
             <span class="tagline">Portfolio</span>
-            <h2 class="title">Sanspower, sebagai The Largest Implementor in Indonesia, sudah mengalirkan <span
-                class="text-secondary">+3,6 Mega Watt</span>
-              yang tersebar di <span class="text-secondary">1134 Titik Implementasi</span>
+            <h2 class="title">Sanspower, sebagai The Largest Implementor in Indonesia, sudah mengalirkan <span>+3,6 Mega
+                Watt</span> yang tersebar di <span>1134 Titik Implementasi</span>
             </h2>
           </div>
         </div>
@@ -318,6 +321,54 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="image-box">
+            <div class="box-image hover-overly-zoom">
+              <img
+                src="https://www.sanspower.com/wp-content/uploads/2022/06/Sanspower_Pats_gantung_1_bangka-belitung_2.jpg"
+                loading="lazy" alt="Image">
+              <div class="box-content">
+                <h5 class="title">Implementasi Pompa Air Tenaga Surya di Bangka Belitung (III)</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="image-box">
+            <div class="box-image hover-overly-zoom">
+              <img
+                src="https://www.sanspower.com/wp-content/uploads/2022/06/sanspower_pats_Dsn.-Gedangan-Ds.-Musuk-Kab.-Boyolali_1.jpg"
+                loading="lazy" alt="Image">
+              <div class="box-content">
+                <h5 class="title">Implementasi Pompa Air Tenaga Surya di Boyolali Jawa Tengah</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="image-box">
+            <div class="box-image hover-overly-zoom">
+              <img
+                src="https://www.sanspower.com/wp-content/uploads/2022/06/Ds.-Klasan-Distrik-Mariat-Papua-Barat_Sanspower_2021_1.jpg"
+                loading="lazy" alt="Image">
+              <div class="box-content">
+                <h5 class="title">Pemasangan Pompa Air Tenaga Surya di Sorong Papua Barat</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="image-box">
+            <div class="box-image hover-overly-zoom">
+              <img
+                src="https://www.sanspower.com/wp-content/uploads/2021/03/pompa_air_tenaga_surya_sanspower_ubud_bali_1_5-1.jpg"
+                loading="lazy" alt="Image">
+              <div class="box-content">
+                <h5 class="title">Aplikasi Pompa Air Tenaga Surya di Ubud, Bali</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="common-heading title-line text-center m-t-60">
         <h2 class="title">Mengurangi hingga <span><img src="assets/img/particle/underline.svg" loading="lazy"
@@ -339,8 +390,8 @@
           <div class="preview-galley-v2">
             <div class="row">
               <div class="col-12 image-1 wow fadeInUp" data-wow-delay="0.1s">
-                <img src="assets/img/preview-gallery/cara-kerja-panel-surya.png"
-                  class="p-t-20 p-b-20 bg-white animate-float-bob-y" loading="lazy" alt="Image">
+                <img src="assets/img/preview-gallery/cara-kerja-panel-surya.webp" class="p-t-20 p-b-20 bg-white"
+                  loading="lazy" alt="Image">
               </div>
             </div>
           </div>
@@ -370,7 +421,7 @@
       <!-- Pricing Table -->
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-6 col-sm-8">
-          <div class="pricing-table pricing-secondary-1 m-t-30 bg-white animate-float-bob-y">
+          <div class="pricing-table pricing-secondary-1 m-t-30 bg-white">
             <div class="plan-title-area">
               <h5 class="plan-name">Diesel</h5>
               <img src="assets/img/generator.png" style="max-width:150px;" loading="lazy" alt="Plan icon"
@@ -391,7 +442,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-8">
-          <div class="pricing-table m-t-30 bg-white animate-float-bob-y">
+          <div class="pricing-table m-t-30 bg-white">
             <div class="plan-title-area">
               <h5 class="plan-name">Pompa Air Tenaga Surya</h5>
               <img src="assets/img/solar-panel.png" alt="Plan icon" loading="lazy" style="max-width:150px;"
@@ -590,7 +641,7 @@
   <!--====== Wow ======-->
   <script src="assets/js/wow.min.js" defer></script>
   <!--====== Main JS ======-->
-  <script src="assets/js/main.min.js?v=1.7" defer></script>
+  <script src="assets/js/main.min.js?v=1.8" defer></script>
   <script type='text/javascript'>
     //<![CDATA[ 
     function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }

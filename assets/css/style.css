@@ -124,7 +124,7 @@
         ##. Coming Soon
 -----------------------------------------------------------------------------------*/
 /*=======  Fonts =======*/
-@font-face {
+/* @font-face {
   font-family: "Nunito";
   src: url("../fonts/nunito/Nunito-Bold.woff2") format("woff2"), url("../fonts/nunito/Nunito-Bold.woff") format("woff"), url("../fonts/nunito/Nunito-Bold.ttf") format("truetype");
   font-weight: normal;
@@ -149,7 +149,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-}
+} */
 
 /*======= Common =======*/
 :root {
@@ -185,9 +185,9 @@
   --color-soft-grey: #f2f5fe;
   --color-soft-grey-2: #f4f7fa;
   --color-offwhite: #e7e8ea;
-  --font-cs-bold: 'Nunito';
-  --font-cs-medium: 'Nunito';
-  --font-cs-book: 'Nunito';
+  --font-cs-bold: 'Roboto';
+  --font-cs-medium: 'Roboto';
+  --font-cs-book: 'Roboto';
 }
 
 html {
@@ -1206,6 +1206,15 @@ textarea {
 .hover-overly-zoom {
   position: relative;
   overflow: hidden;
+}
+
+.translate-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .hover-overly-zoom:before {
@@ -2623,7 +2632,7 @@ textarea {
   position: relative;
   z-index: 1;
   padding-top: 50px;
-  padding-bottom: 135px;
+  padding-bottom: 80px;
   text-align: center;
 }
 
