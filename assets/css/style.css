@@ -2347,7 +2347,6 @@ textarea {
   display: inline-block;
   color: var(--color-white);
   padding: 15px 40px;
-  font-size: 15px;
   font-family: var(--font-cs-bold);
   font-weight: 700;
   line-height: 1.4;
@@ -2654,7 +2653,7 @@ textarea {
   background-color: #F7BC22;
   color: #fff;
   border-radius: 25px;
-  padding: 5px 15px;
+  padding: 5px 20px;
   margin-right: 12px;
 }
 
