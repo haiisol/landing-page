@@ -2035,6 +2035,7 @@ textarea {
 
 .brand-logo img {
   max-width: 160px;
+  min-height: 60px;
 }
 
 /*=======  Header Search  =======*/
