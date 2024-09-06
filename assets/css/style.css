@@ -2642,7 +2642,6 @@ textarea {
 .hero-area-v1 .hero-content .title-tag {
   margin-bottom: 20px;
   color: var(--color-primary);
-  font-size: 18px;
   font-family: var(--font-cs-medium);
   font-weight: 500;
   line-height: 1.3;
@@ -2650,11 +2649,8 @@ textarea {
 }
 
 .hero-area-v1 .hero-content .title-tag span {
-  background-color: #F7BC22;
-  color: #fff;
-  border-radius: 25px;
-  padding: 5px 20px;
-  margin-right: 12px;
+  color: #F7BC22;
+  padding: 0 10px;
 }
 
 .hero-area-v1 .hero-content .hero-title {
