@@ -293,6 +293,11 @@
     .fancy-icon-boxes-v1 .fancy-icon-box .box-content {
       padding-left: 0;
       padding-top: 30px; }
+  .preview-galley-v2 {
+    padding: 0; }
+  .preview-galley-v2::after,
+  .common-heading.title-line .title span img {
+    display: none; }
   .cta-with-particle.cta-with-particle .particle-left,
   .cta-with-particle.cta-with-particle .particle-right {
     max-width: 120px; }
@@ -835,8 +840,6 @@
     .newsletter-form.form-two .input-field .template-btn {
       margin-top: 15px;
       width: auto; }
-  .preview-galley-v2 {
-    padding: 40px 30px 40px 0; }
   .hero-area-v7 .hero-content {
     max-width: 90%; }
     .hero-area-v7 .hero-content .hero-title {
@@ -1076,8 +1079,6 @@
     font-size: 17px; }
   .common-heading .title {
     font-size: 28px; }
-  .common-heading.title-line .title span img {
-    display: none; }
   .hero-area-v9 .hero-images {
     display: none; }
   .preview-image-v6 .video-wrap {
