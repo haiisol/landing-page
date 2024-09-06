@@ -2636,6 +2636,10 @@ textarea {
   text-align: center;
 }
 
+.hero-content .fa-arrow-down {
+  height: 34px;
+}
+
 .hero-area-v1 .hero-content .title-tag {
   margin-bottom: 20px;
   color: var(--color-primary);
