@@ -2628,6 +2628,12 @@ textarea {
   overflow: hidden;
 }
 
+.hero-area-v1 img {
+  z-index: -1;
+  object-fit: cover;
+  opacity: .3;
+}
+
 .hero-area-v1 .hero-content {
   position: relative;
   z-index: 1;
@@ -4374,14 +4380,9 @@ textarea {
   bottom: 0;
   margin: 20px;
   border-radius: 10px;
-  opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-}
-
-.image-boxes-v2 .image-box:hover .box-content {
-  opacity: 1;
 }
 
 .image-boxes-v2 .image-box .box-content .title {
@@ -4428,6 +4429,10 @@ textarea {
 
 .image-boxes-v2 .image-box:hover .box-link::after {
   width: 100%;
+}
+
+.close-icon {
+  font-size: 20rem;
 }
 
 /*======= Image Boxes v3 =======*/

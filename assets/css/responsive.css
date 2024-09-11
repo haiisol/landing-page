@@ -454,6 +454,7 @@
 
 @media (max-width: 767px) {
   .brand-logo img { max-width: 120px; }
+  .close-icon {font-size: 15rem;}
   .template-btn {
     padding: 14px 28px; }
   .hero-area-v1 .hero-content {
