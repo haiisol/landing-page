@@ -4319,10 +4319,6 @@ textarea {
   justify-content: center;
 }
 
-.image-boxes-v1.image-thumbnail-boxed .image-box .thumb img {
-  max-width: 120px;
-}
-
 .image-boxes-v1.image-thumbnail-boxed .image-box .title {
   font-size: 22px;
 }
