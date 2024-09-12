@@ -4222,6 +4222,11 @@ textarea {
   font-size: 18px;
 }
 
+.brands-section .brands-wrapper {
+  padding: 45px 30px;
+  border-radius: 7px;
+}
+
 /*======= Image Boxes v1 =======*/
 .image-boxes-v1 .image-box {
   background: #fff;
