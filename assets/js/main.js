@@ -1,5 +1,40 @@
 (function ($) {
     'use strict';
+    // ===== Brand Slider One
+    function brandSlider() {
+        const slider = $('.brand-slider-one-active');
+
+        slider.slick({
+            infinite: true,
+            dots: true,
+            arrows: false,
+            speed: 500,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+            ]
+        });
+    }
 
     function testimonialActiveOne() {
         const slider = $('#testimonialActiveOne');
@@ -30,6 +65,21 @@
         });
     }
 
+    // ===== Testimonials Slider Eight
+    function testimonialActiveEight() {
+        const slider = $('.customer-review-wrap');
+        slider.slick({
+            infinite: true,
+            dots: true,
+            arrows: false,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 5000,
+        });
+    }
+
     // ==== Sticky Header
     function stickyHeader() {
         const scroll_top = $(window).scrollTop(),
@@ -52,11 +102,23 @@
         }
     }
 
+    // ==== Video Popup
+    function videoPopup() {
+        $('.popup-video').each(function () {
+            $(this).magnificPopup({
+                type: 'iframe',
+            });
+        });
+    }
+
     /*---------------------
     === Document Ready  ===
     ----------------------*/
     $(document).ready(function () {
+        brandSlider();
         testimonialActiveOne();
+        testimonialActiveEight();
+        videoPopup();
         deferBG()
     });
 
